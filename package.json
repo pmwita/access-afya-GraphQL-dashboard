@@ -1,12 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js",
-  "client": "react-scripts start",
-  "build": "react-scripts build"
-},
+    "start": "node server.js",
+    "heroku-postbuild": "npm install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
